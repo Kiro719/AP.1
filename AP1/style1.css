@@ -1,0 +1,53 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style pour les utilisateurs connectés en tant que prof */
+body.prof {
+    background-color: #d4edda; /* Vert pâle pour les profs */
+    color: #155724;
+}
+
+body.prof .partie-prof {
+    color: #155724;
+    font-weight: bold;
+    border: 2px solid #c3e6cb;
+    padding: 10px;
+    background-color: #f1f8f6;
+    margin-top: 20px;
+}
+
+/* Style pour les utilisateurs connectés en tant qu'élève */
+body.eleve {
+    background-color: #d1ecf1; /* Bleu pâle pour les élèves */
+    color: #0c5460;
+}
+
+body.eleve .partie-eleve {
+    color: #0c5460;
+    font-weight: bold;
+    border: 2px solid #bee5eb;
+    padding: 10px;
+    background-color: #e2f3f7;
+    margin-top: 20px;
+}
+
+/* Style pour les utilisateurs non connectés */
+body.non-connecte {
+    background-color: #f8d7da; /* Rouge pâle pour les non-connectés */
+    color: #721c24;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
